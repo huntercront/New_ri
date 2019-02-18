@@ -212,11 +212,13 @@ width: 800px;
 .comments{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .comment-container{
 	display: flex;
 	flex-direction: row;
-	max-width: 50%;
+	max-width: 48%;
+	min-width: 380px;
 	justify-content: flex-start;
 }
 .speeker-photo{
@@ -266,7 +268,8 @@ width: 800px;
 	justify-content: space-between;
 }
 .news-container{
-	width:220px ;
+	min-width:220px ;
+	max-width: 25%;
 }
 .agency-contacts{
 	display: flex;

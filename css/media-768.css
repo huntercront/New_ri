@@ -10,4 +10,10 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.contacts{
+		flex-direction: column;
+	}
+	.contacts-information{
+		width: 100%;
+	}
 }
