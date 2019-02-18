@@ -1,5 +1,54 @@
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
 	html {
 			font-size: 14px;
 	}
+	body{
+		padding-left:0px;
+		padding-top: 60px;
+	}
+	.navbar{
+		position: fixed;
+		top:0;
+		height: 60px;
+		width: 100vw;
+		background-color: #202020;
+		z-index: 20;
+	}
+	.navbar-menu{
+		position: absolute;
+		top: 60px;
+		right: 0px;
+		height: 100vh;
+		display: flex;
+		padding-right: 20px;
+		padding-left: 20px;
+		align-items: flex-start;
+		background-color: #202020;
+		justify-content: center;
+		transform: translateX(+100%);
+		transition: 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	}
+	.manu-active{
+		transform: translateX(0);
+	}
+.m-nav-buton{
+	display: flex;
+	position: absolute;
+	top: 20px;
+	right: 40px;
+	z-index: 30;
+}
+.navbar-nav{
+	height: 80vh;
+}
+.map-blurb{
+min-width: 40%;
+justify-content: flex-start;
+}
+.map-text{
+	min-width: 100%;
+}
+.map-text-container{
+	flex-wrap: wrap;
+}
 }
