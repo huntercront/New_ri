@@ -1,0 +1,128 @@
+.anim-70 {
+	width: 70%;
+	animation-name: anim-70;
+	animation-direction: unset;
+}
+@keyframes anim-70 {
+
+	0%{
+		opacity: 0.5;
+		width: 0%;
+	}
+	100% {
+		opacity: 1;
+		width: 70%;
+	}
+}
+.anim-60 {
+	width: 60%;
+	animation-name: anim-60;
+	animation-direction: unset;
+}
+@keyframes anim-60 {
+
+	0%{
+		opacity: 0.5;
+		width: 0%;
+	}
+	100% {
+		opacity: 1;
+		width: 60%;
+	}
+}
+.anim-50 {
+	width: 50%;
+	animation-name: anim-50;
+	animation-direction: unset;
+}
+@keyframes anim-50 {
+
+	0%{
+		opacity: 0.5;
+		width: 0%;
+	}
+	100% {
+		opacity: 1;
+		width: 50%;
+	}
+}
+.anim-40 {
+	width: 40%;
+	animation-name: anim-40;
+	animation-direction: unset;
+}
+@keyframes anim-40 {
+
+	0%{
+		opacity: 0.5;
+		width: 0%;
+	}
+	100% {
+		opacity: 1;
+		width: 40%;
+	}
+}
+.anim-30 {
+	width: 30%;
+	animation-name: anim-30;
+	animation-direction: unset;
+}
+@keyframes anim-30 {
+
+	0%{
+		opacity: 0.5;
+		width: 0%;
+	}
+	100% {
+		opacity: 1;
+		width: 30%;
+	}
+}
+.anim-20 {
+	width: 20%;
+	animation-name: anim-20;
+	animation-direction: unset;
+}
+@keyframes anim-20 {
+
+	0%{
+		opacity: 0.5;
+		width: 0%;
+	}
+	100% {
+		opacity: 1;
+		width: 20%;
+	}
+}
+.anim-10 {
+	width: 10%;
+	animation-name: anim-10;
+	animation-direction: unset;
+}
+@keyframes anim-10 {
+
+	0%{
+		opacity: 0.5;
+		width: 0%;
+	}
+	100% {
+		opacity: 1;
+		width: 10%;
+	}
+}
+.anim-5 {
+	width: 5%;
+	animation-name: anim-5;
+	animation-direction: unset;
+}
+@keyframes anim-5 {
+
+	0%{
+		opacity: 0.5;
+		width: 0%;
+	}
+	100% {
+		opacity: 1;
+		width: 5%;
+	}
+}
