@@ -87,6 +87,9 @@ font-family: 'Open Sans', sans-serif; */
 
 	flex-direction: column;
 }
+.about-descr {
+	font-size: 1.15rem;
+}
 .navbar-nav-item{
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;

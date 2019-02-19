@@ -8,7 +8,7 @@ var btnm = document.getElementById("m_memu_text");
 
 			var wow = new WOW(
 				{
-					boxClass:     'facts-container-counter-il-anim',      // класс, скрывающий элемент до момента отображения на экране (по умолчанию, wow)
+					boxClass:     'facts-container-counter-il-anim',    // класс, скрывающий элемент до момента отображения на экране (по умолчанию, wow)
 					animateClass: 'anim-70',
 					animateClass: 'anim-60',
 					animateClass: 'anim-50',
