@@ -143,3 +143,10 @@
 		stroke-linecap:round;
 		stroke-linejoin:round;
 }
+.russia:hover #map-show-country-1{
+	transform: translate(0);
+	-webkit-transform: translate(0);
+	-moz-transform: translate(0);
+	-ms-transform: translate(0);
+	-o-transform: translate(0);
+}
