@@ -26,7 +26,7 @@ var btnm = document.getElementById("m_memu_text");
 					scrollContainer: null // селектор прокручивающегося контейнера (опционально, по умолчанию, window)
 				}
 			);
-			wow.init();
+
 
 
 var russia_svg = document.getElementById('russia');
@@ -108,4 +108,39 @@ italy_svg.onmouseover = function() {
 }
 italy_svg.onmouseleave = function() {
 	italy_table.classList.remove("map-show-off-hover");
+}
+var x = window.matchMedia("(max-width: 768px)")
+myFunction(x)
+x.addListener(myFunction)
+function myFunction(x) {
+	if (x.matches) {
+		var testimonials_section = document.getElementById("testimonials");
+	testimonials_section.classList.add("siema");
+	wow.init();
+	const mySiema = new Siema({
+		loop: true,
+		selector: '.siema',
+		duration: 700,
+		easing: 'ease-in-out',
+		perPage: 1,
+		startIndex: 0,
+		draggable: true,
+		multipleDrag: false,
+		threshold: 20,
+		rtl: false,
+		onInit: () => {},
+		onChange: () => {},
+	});
+	document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
+	document.querySelector('.next').addEventListener('click', () => mySiema.next()); 
+}
+	else
+	{
+		var testimonials_section = document.getElementsByClassName("comment-container");
+		testimonials_section.classList.remove("siema");
+Array.prototype.forEach.call(testimonials_section, function(element){
+    element.removeAttribute('style');
+});
+
+}
 }

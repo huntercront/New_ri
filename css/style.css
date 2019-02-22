@@ -384,6 +384,7 @@ justify-content: flex-start;
 	flex-direction: row;
 	justify-content: flex-start;
 	margin-bottom: 10px;
+	max-width:170px; 
 }
 .gos-link-element a{
 	font-size: 0.8rem;
@@ -449,7 +450,7 @@ justify-content: flex-start;
 	display: flex;
 	flex-direction: column;
 	justify-content:	space-between;
-	height: 250px;
+	height: 270px;
 	width: calc(25% - 20px);
 	padding: 10px;
 	color: #fff;
