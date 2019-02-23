@@ -74,4 +74,7 @@ justify-content: flex-start;
 .map-text-container{
 	flex-wrap: wrap;
 }
+.map-blurb{
+	flex-basis: 48%;
+}
 }
