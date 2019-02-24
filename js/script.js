@@ -161,79 +161,48 @@ function myFunction2(y) {
 }
 
 
-ymaps.ready(init);
-
-var placemarks = [
-    {
-        latitude: 59.97,
-        longitude: 30.31,
-        hintContent: '<div class="map__hint">ул. Литераторов, д. 19</div>',
-        balloonContent: [
-            '<div class="map__balloon">',
-            '<img class="map__burger-img" src="img/burger.png" alt="Бургер"/>',
-            'Самые вкусные бургеры у нас! Заходите по адресу: ул. Литераторов, д. 19',
-            '</div>'
-        ]
-    },
-    {
-        latitude: 59.94,
-        longitude: 30.25,
-        hintContent: '<div class="map__hint">Малый проспект В О, д 64</div>',
-        balloonContent: [
-            '<div class="map__balloon">',
-            '<img class="map__burger-img" src="img/burger.png" alt="Бургер"/>',
-            'Самые вкусные бургеры у нас! Заходите по адресу: Малый проспект В О, д 64',
-            '</div>'
-        ]
-    },
-    {
-        latitude: 59.93,
-        longitude: 30.34,
-        hintContent: '<div class="map__hint">наб. реки Фонтанки, д. 56</div>',
-        balloonContent: [
-            '<div class="map__balloon">',
-            '<img class="map__burger-img" src="img/burger.png" alt="Бургер"/>',
-            'Самые вкусные бургеры у нас! Заходите по адресу: наб. реки Фонтанки, д. 56',
-            '</div>'
-        ]
-    }
-],
-    geoObjects= [];
-
-function init() {
-    var map = new ymaps.Map('map', {
-        center: [59.94, 30.32],
-        zoom: 12,
-        controls: ['zoomControl'],
+// ymaps.ready(init);
+ymaps.ready(function () {
+	var myMap = new ymaps.Map('map', {
+					center: [55.74951156899046,37.53708349999991],
+					zoom: 16,
+					controls: ['zoomControl'],
         behaviors: ['drag']
-    });
+			}),
 
-    for (var i = 0; i < placemarks.length; i++) {
-            geoObjects[i] = new ymaps.Placemark([placemarks[i].latitude, placemarks[i].longitude],
-            {
-                hintContent: placemarks[i].hintContent,
-                balloonContent: placemarks[i].balloonContent.join('')
-            },
-            {
-                iconLayout: 'default#image',
-                iconImageHref: 'img/sprite.png',
-                iconImageSize: [46, 57],
-                iconImageOffset: [-23, -57],
-                iconImageClipRect: [[415, 0], [461, 57]]
-            });
-    }
+			// Создаём макет содержимого.
+			MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+					'<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+			),
 
-    var clusterer = new ymaps.Clusterer({
-        clusterIcons: [
-            {
-                href: 'img/burger.png',
-                size: [100, 100],
-                offset: [-50, -50]
-            }
-        ],
-        clusterIconContentLayout: null
-    });
+			myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+					hintContent: '<div class="hint-map">Штаб-квартира<br>РОССИЙСКИЕ ИНВЕСТИЦИИ</div>',
+					balloonContent: '<div class="balloon-map"><img class="balloon-map-icon" src="img/map/ir_black.svg">г. Москва, Пресненская наб. д. 12<br> (ММДЦ «Москва-Сити»,<br>«Башня Федерация — Восток»)</div>'
+			}, {
+					// Опции.
+					// Необходимо указать данный тип макета.
+					iconLayout: 'default#image',
+					// Своё изображение иконки метки.
+					iconImageHref: 'img/map/sprite.svg',
+					// Размеры метки.
+					iconImageSize: [80, 95],
+					iconImageOffset: [-40, -60]
+			});
+	myMap.geoObjects
+			.add(myPlacemark)
+			// .add(myPlacemarkWithContent);
+});
+const anchors = document.querySelectorAll('a[href*="#"]')
 
-    map.geoObjects.add(clusterer);
-    clusterer.add(geoObjects);
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+    
+    const blockID = anchor.getAttribute('href')
+    
+    document.querySelector('' + blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
 }

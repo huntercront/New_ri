@@ -88,4 +88,19 @@
 	.online-map-container{
 		width: 100%;
 	}
+	.partners-link{
+		display: flex;
+		justify-content: center;
+		padding: 20px;
+		filter: grayscale(95%);
+		transition: 450ms;
+		min-width: 80px;
+		border:1px solid transparent;
+	}
+	.partners-logo{
+		height: 28px;
+	}
+	.pdding{
+		padding: 0rem 2rem;
+	}
 }

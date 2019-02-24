@@ -56,8 +56,8 @@
 .m-nav-buton{
 	display: flex;
 	position: absolute;
-	top: 20px;
-	right: 40px;
+	top: 0px;
+	right: 60px;
 	z-index: 30;
 }
 .navbar-nav{
@@ -77,4 +77,38 @@ justify-content: flex-start;
 .map-blurb{
 	flex-basis: 48%;
 }
+.agency {
+	margin-top: 2rem;
+}
+.contacts{
+	margin-bottom: 2rem;
+}
+.m-nav-buton{
+	height: 100%;
+	width: 35px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-end;
+}
+.buttion-active span{
+width: 0px;
+}
+.buttion-active span:after{
+	transform: rotate(-45deg);
+	top:0px;
+	}
+	.buttion-active span:before{
+		transform: rotate(45deg);
+		bottom:0px;
+		width: 30px;
+		}
+		.social-icons-container{
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+		.about{
+			margin-top:0;
+			margin-top:1rem;
+		}
 }
