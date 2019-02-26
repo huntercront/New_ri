@@ -206,3 +206,12 @@ for (let anchor of anchors) {
     })
   })
 }
+
+document.getElementById('m_memu_text').addEventListener('click', function () {
+  // Using an if statement to check the class
+  if (this.classList.contains('manu-active')) {
+		var btnclose = document.getElementById("m_menu");
+		btnclose.classList.remove("buttion-active");
+   this.classList.remove('manu-active');
+  }
+});
