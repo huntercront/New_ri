@@ -615,56 +615,56 @@ position: relative;
 	justify-content: center;
 }
 #news-1{
-	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('/img/news/news_small/news-1-full.jpg');
+	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('../img/news/news_small/news-1-full.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	transition: 500ms ease-in-out;
 }
 #news-2{
-	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('/img/news/news_small/news-2-full.jpg');
+	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('../img/news/news_small/news-2-full.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	transition: 500ms ease-in-out;
 }
 #news-3{
-	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('/img/news/news_small/news-3-full.jpg');
+	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('../img/news/news_small/news-3-full.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	transition: 500ms ease-in-out;
 }
 #news-4{
-	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('/img/news/news_small/news-4-full.jpg');
+	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('../img/news/news_small/news-4-full.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	transition: 500ms ease-in-out;
 }
 #news-5{
-	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('/img/news/news_small/news-5-full.jpg');
+	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('../img/news/news_small/news-5-full.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	transition: 500ms ease-in-out;
 }
 #news-6{
-	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('/img/news/news_small/news-6-full.jpg');
+	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('../img/news/news_small/news-6-full.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	transition: 500ms ease-in-out;
 }
 #news-7{
-	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('/img/news/news_small/news-7-full.jpg');
+	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('../img/news/news_small/news-7-full.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	transition: 500ms ease-in-out;
 }
 #news-8{
-	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('/img/news/news_small/news-8-full.jpg');
+	background: linear-gradient(180deg, rgba(35, 35, 35,0.5), rgba(35, 35, 35,0.95)), url('../img/news/news_small/news-8-full.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
