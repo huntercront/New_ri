@@ -7,11 +7,18 @@
 	}
 	.number-container{
 		width: 100%;
-		justify-content: center;
-		align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.contacts{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.contacts-information{
 		width: 100%;
@@ -26,7 +33,7 @@
 		font-size: 1.2rem;
 	}
 	.speeker-photo{
-		width: 50px;
+		width: auto;
 		height: 50px;
 	}
 	.comment-container{
@@ -44,6 +51,8 @@
 		height: 30px;
 	}
 	.slyder-arrow{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 		position: absolute;
 	}
@@ -77,22 +86,37 @@
 		margin-top: 5rem;
 	}
 	.site-footer{
-		flex-direction: column-reverse;
-		justify-content: flex-start;
-		align-content: flex-start;
-		align-items: flex-start;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		    align-content: flex-start;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
 	}
 	.gos-link-container{
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 	.online-map-container{
 		width: 100%;
 	}
 	.partners-link{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 		padding: 20px;
-		filter: grayscale(95%);
+		-webkit-filter: grayscale(95%);
+		        filter: grayscale(95%);
+		-webkit-transition: 450ms;
 		transition: 450ms;
 		min-width: 80px;
 		border:1px solid transparent;

@@ -4,6 +4,7 @@
 .svg-1-circle-primal{
 	fill: #fff;
 	opacity: 0.45;
+	-webkit-transition: 450ms;
 	transition: 450ms;
 	stroke: #ffffff;
 	stroke-width:0px;
@@ -18,6 +19,7 @@
 .svg-1-circle-secondary{
 	fill: #fff;
 	opacity: 0.2;
+	-webkit-transition: 450ms;
 	transition: 450ms;
 	stroke: #ffffff;
 	stroke-width:0px;
@@ -33,6 +35,7 @@
 .svg-2-circles-secondary{
 	fill: #fff;
 	opacity: 0.2;
+	-webkit-transition: 450ms;
 	transition: 450ms;
 	stroke: #ffffff;
 	stroke-width:0px;
@@ -40,6 +43,7 @@
 .six-trade{
 	fill: #fff;
 	opacity: 0.45;
+	-webkit-transition: 450ms;
 	transition: 450ms;
 	stroke: #ffffff;
 	stroke-width:0px;
@@ -56,16 +60,19 @@
 	stroke-width:0.5px;
 }
 #russia,#france,#japan,#usa,#kanada,#shwedish,#germany,#england,#china,#italy{
-	transform: translate(0px,-8px);
+	-webkit-transform: translate(0px,-8px);
+	        transform: translate(0px,-8px);
 	fill: #fff;
 	opacity: 0.6;
+	-webkit-transition: 400ms;
 	transition: 400ms;
 	stroke: #fff;
 	stroke-width:0px;
 }
 #italy:hover{
 	opacity: 1;
-	transform: translate(0px,-12px);
+	-webkit-transform: translate(0px,-12px);
+	        transform: translate(0px,-12px);
 		stroke-width:1px;
 		stroke: white;
 		stroke-linecap:round;
@@ -73,7 +80,8 @@
 }
 #china:hover{
 	opacity: 1;
-	transform: translate(0px,-12px);
+	-webkit-transform: translate(0px,-12px);
+	        transform: translate(0px,-12px);
 		stroke-width:1px;
 		stroke: white;
 		stroke-linecap:round;
@@ -81,7 +89,8 @@
 }
 #england:hover{
 	opacity: 1;
-	transform: translate(0px,-12px);
+	-webkit-transform: translate(0px,-12px);
+	        transform: translate(0px,-12px);
 		stroke-width:1px;
 		stroke: white;
 		stroke-linecap:round;
@@ -89,7 +98,8 @@
 }
 #germany:hover{
 	opacity: 1;
-	transform: translate(0px,-12px);
+	-webkit-transform: translate(0px,-12px);
+	        transform: translate(0px,-12px);
 		stroke-width:1px;
 		stroke: white;
 		stroke-linecap:round;
@@ -97,7 +107,8 @@
 }
 #shwedish:hover{
 	opacity: 1;
-	transform: translate(0px,-12px);
+	-webkit-transform: translate(0px,-12px);
+	        transform: translate(0px,-12px);
 		stroke-width:1px;
 		stroke: white;
 		stroke-linecap:round;
@@ -105,7 +116,8 @@
 }
 #kanada:hover{
 	opacity: 1;
-	transform: translate(0px,-12px);
+	-webkit-transform: translate(0px,-12px);
+	        transform: translate(0px,-12px);
 		stroke-width:1px;
 		stroke: white;
 		stroke-linecap:round;
@@ -113,7 +125,8 @@
 }
 #usa:hover{
 	opacity: 1;
-	transform: translate(0px,-12px);
+	-webkit-transform: translate(0px,-12px);
+	        transform: translate(0px,-12px);
 		stroke-width:1px;
 		stroke: white;
 		stroke-linecap:round;
@@ -121,7 +134,8 @@
 }
 #japan:hover{
 	opacity: 1;
-	transform: translate(0px,-12px);
+	-webkit-transform: translate(0px,-12px);
+	        transform: translate(0px,-12px);
 		stroke-width:1px;
 		stroke: white;
 		stroke-linecap:round;
@@ -129,7 +143,8 @@
 }
 #france:hover{
 	opacity: 1;
-	transform: translate(0px,-12px);
+	-webkit-transform: translate(0px,-12px);
+	        transform: translate(0px,-12px);
 		stroke-width:1px;
 		stroke: white;
 		stroke-linecap:round;
@@ -137,7 +152,8 @@
 }
 #russia:hover{
 	opacity: 1;
-	transform: translate(0px,-12px);
+	-webkit-transform: translate(0px,-12px);
+	        transform: translate(0px,-12px);
 		stroke-width:1px;
 		stroke: white;
 		stroke-linecap:round;

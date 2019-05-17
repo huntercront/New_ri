@@ -28,32 +28,48 @@
 		top: 60px;
 		right: 0px;
 		height: 100vh;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 		padding-right: 20px;
 		padding-left: 20px;
-		align-items: flex-start;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
 		background-color: #202020;
-		justify-content: center;
-		transform: translateX(+100%);
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-transform: translateX(+100%);
+		        transform: translateX(+100%);
+		-webkit-transition: 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 		transition: 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 	}
 	.comment-container{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: row;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
 		max-width: 48%;
 		min-width: 290px;
 	}
 	.speeker-photo{
-		width: 65px;
+		width: auto;
 		height: 65px;
 	}
 	.speeker-comment{
 		padding-left: 15px;
 	}
 	.manu-active{
-		transform: translateX(0);
+		-webkit-transform: translateX(0);
+		        transform: translateX(0);
 	}
 .m-nav-buton{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	position: absolute;
 	top: 0px;
@@ -62,20 +78,26 @@
 }
 .navbar-nav{
 	height: 80vh;
-	justify-content: flex-start;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
 }
 .map-blurb{
 min-width: 40%;
-justify-content: flex-start;
+-webkit-box-pack: start;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
 }
 .map-text{
 	min-width: 100%;
 }
 .map-text-container{
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 }
 .map-blurb{
-	flex-basis: 48%;
+	-ms-flex-preferred-size: 48%;
+	    flex-basis: 48%;
 }
 .agency {
 	margin-top: 2rem;
@@ -86,20 +108,29 @@ justify-content: flex-start;
 .m-nav-buton{
 	height: 100%;
 	width: 35px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	align-content: center;
-	justify-content: flex-end;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
 }
 .buttion-active span{
 width: 0px;
 }
 .buttion-active span:after{
-	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
 	top:0px;
 	}
 	.buttion-active span:before{
-		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		        transform: rotate(45deg);
 		bottom:0px;
 		width: 30px;
 		}

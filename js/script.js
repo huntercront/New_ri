@@ -107,6 +107,8 @@ italy_svg.onmouseover = function() {
 italy_svg.onmouseleave = function() {
 	italy_table.classList.remove("map-show-off-hover");
 }
+
+
 var x = window.matchMedia("(max-width: 768px)")
 myFunction(x)
 x.addListener(myFunction)
